@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Todo App</title>
+<!--    css-->
+    <link th:href="@{/css/bootstrap.css}" rel="stylesheet">
+    <script th:href="@{/js/bootstrap.js}"></script>
+</head>
+<body>
+    <h1 th:text="#{smile.message.hello}"></h1>
+    <a th:href="@{/listTodo}" class="btn btn-primary">List todo</a>
+    <a th:href="@{/addTodo}" class="btn btn-success">Add todo</a>
+</body>
+</html>
