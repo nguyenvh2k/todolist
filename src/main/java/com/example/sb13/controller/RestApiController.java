@@ -13,7 +13,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/v1")
-@CrossOrigin(origins = "*", allowedHeaders = "*")
+@CrossOrigin(origins = "https://nguyenvh2k.github.io/", allowedHeaders = "*")
 @Tag(name = "Todo")
 public class RestApiController {
     @Autowired
